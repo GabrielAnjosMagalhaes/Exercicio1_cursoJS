@@ -13,22 +13,27 @@
 
 
 </header>
-<body>
-    <h1 class="titulo">Vamos nessa! Olá, mundo!</h1><br>
-    <h1>Hora do dia</h1>
+<body onload="carregar()">
+    <!--<h1 class="titulo">Vamos nessa! Olá, mundo!</h1><br>-->
+    <h1 class="titulo">Hora do dia</h1>
 
 <section class="sessao">
-<div id="mensagem"> Aqui irá aparecer a hora </div>
+<div id="mensagem" class="mensagem"> Aqui irá aparecer a hora </div>
 
-<div id="imagem"> 
-    <img class="manha" src="img/manha.jpg" alt="Foto manha">
+<div class="img"> 
+    <img class="foto" id="imagem" src="img/manha.jpg" alt="Foto do dia">
+    
+</div>
+<div id="frase" class="frase">
+Seja bem vindo
 </div>
 
 </section>
 
-    <script src="script/script.js"></script>
     <footer>
 
     </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>

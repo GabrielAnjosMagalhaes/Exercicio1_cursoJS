@@ -10,20 +10,34 @@ body{
 }
 
 .sessao{
+    text-align: center;
+    
     
     border-radius: 8px;
     padding: 15px;
     width: 33%;
     margin: auto;
-    box-shadow: 5px 5px 10px #3e4646;
+    box-shadow: 3px 3px 10px #000000;
 
     background-color: aliceblue;
     color: darkblue;
+    min-width: 300px;
+    min-height: 300px;
 }
 
-.manha{
+.foto{
+         
     border-radius:50%;
     width: 300px;
     height: 300px;
 
+}
+
+.mensagem{
+    
+    margin-bottom: 15px;
+}
+.frase{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
